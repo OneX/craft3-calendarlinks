@@ -76,6 +76,15 @@ class CalendarLinksModel extends Model
     {
         return $this->link->ics();
     }
+    
+    /**
+     * @return mixed
+     */
+    public function webOutlook ()
+    {
+        return $this->link->webOutlook();
+    }
+
 
     /**
      * @param Link $link
